@@ -1,3 +1,6 @@
+# very early framework, code is very hard to read & unclear. will receive a big rewrite next commit, i just wanna get this published.
+# todo: implement more possible actions when it runs
+# todo: rewrite main() logic to be easier to read + expand in the future
 import random
 import sys
 import os

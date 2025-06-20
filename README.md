@@ -10,4 +10,6 @@ To install this to the startup folder, run installer.py
 
 Otherwise, if you just want to test out the script itself, run main.py :)
 
+I plan to add WAY more funny features in the future, consider this a very early beta
+
 If you like this, I made another stupid script in the same vein as this [here.](https://github.com/qerty2/BSOD-Coin-Flip/tree/main)

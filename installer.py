@@ -1,4 +1,5 @@
 # ngl I wrote the main functions and had ChatGPT write the logic for the installer (except for administrator and file paths) cause im lazy
+# todo: rewrite
 import os, sys, ctypes, shutil
 
 def is_admin():
