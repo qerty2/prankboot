@@ -2,6 +2,8 @@
 
 **This also only works on windows.**
 
+**This is a VERY early framework. The codee is unclear and needs rewriting (which is on the top of my to-do list for this. It does not at all represent what the final version will look like.**
+
 Has a 25% chance to  kill explorer.exe then proceed to open 100 tabs of e621, and will run by itself on startup if you run the installer.
 
 Also has a further 5% chance after that 25% chance to just crash your computer. Fun!
