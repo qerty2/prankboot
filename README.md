@@ -1,17 +1,13 @@
-**Please don't actually use this for malicious purposes. That's gay.**
+**Please don't actually use this for malicious purposes**
 
-**This also only works on windows.**
+**This also only works on windows at the moment.**
 
-**This is a VERY early framework. The codee is unclear and needs rewriting (which is on the top of my to-do list for this. It does not at all represent what the final version will look like.**
+Funny script that has a 25% chance to run a random function from [here]() every time you start your computer.
+Why would you install this? I don't know. Maybe you install it on your family members computer or something.
 
-Has a 25% chance to  kill explorer.exe then proceed to open 100 tabs of e621, and will run by itself on startup if you run the installer.
+Anyway, it only has one dependency besides python and its built-in packages, which can be found [here.]() 
 
-Also has a further 5% chance after that 25% chance to just crash your computer. Fun!
+Installer was removed, which im aware was the main point, but it will be added once im ready to release (id like to have the installer install a compiled version for compatibility’s sake)
 
-To install this to the startup folder, run installer.py
+If you like this, please don't hesitate to make a pull request and add your own functions / clean up code. I have another script in the same vein as this [here.](https://github.com/qerty2/BSOD-Coin-Flip)
 
-Otherwise, if you just want to test out the script itself, run main.py :)
-
-I plan to add WAY more funny features in the future, consider this a very early beta
-
-If you like this, I made another stupid script in the same vein as this [here.](https://github.com/qerty2/BSOD-Coin-Flip/tree/main)
