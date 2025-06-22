@@ -13,7 +13,9 @@ def main(): # runs one of the functions in functions.py
 def startup(): # rolling 1 in 4 chance to run the main script
     run = random.randint(1,4)
     if run == 1:
+        print("running an event")
         main()
     else:
+        print("not running an event")
         sys.exit()
 startup()
