@@ -57,7 +57,7 @@ def move_mouse(): # moves the mouse a tiny bit every few seconds
         pyautogui.moveRel(x,y, duration=0.15)
         time.sleep(5)
 
-def play_sound(): # constantly sets your volume to 1000 while playing a very high pitched sound. very painful
+def play_sound(): # constantly sets your volume to 100 while playing a very high pitched sound. very painful
     import winsound
     import random
     import os
